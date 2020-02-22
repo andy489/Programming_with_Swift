@@ -17,4 +17,3 @@ repeat{
     }
 }while(i!=0&&e>0)
 print(e)
-
