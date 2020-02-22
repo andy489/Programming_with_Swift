@@ -2,50 +2,31 @@
 
 [Judge System](https://www.hackerrank.com/challenges/permutation-equation/problem)
 
-Given a sequence of integers, where each element is distinct and satisfies . For each where , find any integer such that and print the value of
+Given a sequence of <img src="https://latex.codecogs.com/svg.latex?\Large&space;n"> integers, <img src="https://latex.codecogs.com/svg.latex?\Large&space;p(1),p(2),...,p(n)"> where each element is distinct and satisfies <img src="https://latex.codecogs.com/svg.latex?\Large&space;1\le{p(x)}\le{n}">. For each <img src="https://latex.codecogs.com/svg.latex?\Large&space;x"> where <img src="https://latex.codecogs.com/svg.latex?\Large&space;1\le{x}\le{n}">, find any integer <img src="https://latex.codecogs.com/svg.latex?\Large&space;y"> such that <img src="https://latex.codecogs.com/svg.latex?\Large&space;p(p(y))\equiv{x}"> and print the value of <img src="https://latex.codecogs.com/svg.latex?\Large&space;y"> on a new line.
 
-on a new line.
+For example, assume the sequence <img src="https://latex.codecogs.com/svg.latex?\Large&space;p=[5,2,1,3,4]">. Each value of <img src="https://latex.codecogs.com/svg.latex?\Large&space;x"> between <img src="https://latex.codecogs.com/svg.latex?\Large&space;1"> and <img src="https://latex.codecogs.com/svg.latex?\Large&space;5">, the length of the sequence, is analyzed as follows:
 
-For example, assume the sequence
-. Each value of between and
+1. <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=1\equiv{p[3],p[4]=3}">, so <img src="https://latex.codecogs.com/svg.latex?\Large&space;p[p[4]]=1"><br>
+2. <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=2\equiv{p[2],p[2]=2}">, so <img src="https://latex.codecogs.com/svg.latex?\Large&space;p[p[2]]=2"><br>
+3. <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=3\equiv{p[43],p[5]=4}">, so <img src="https://latex.codecogs.com/svg.latex?\Large&space;p[p[5]]=3"><br>
+4. <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=4\equiv{p[5],p[1]=5}">, so <img src="https://latex.codecogs.com/svg.latex?\Large&space;p[p[1]]=4"><br>
+5. <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=5\equiv{p[1],p[3]=1}">, so <img src="https://latex.codecogs.com/svg.latex?\Large&space;p[p[3]]=5"><br>
 
-, the length of the sequence, is analyzed as follows:
+The values for <img src="https://latex.codecogs.com/svg.latex?\Large&space;y"> are <img src="https://latex.codecogs.com/svg.latex?\Large&space;[4,2,5,1,3]">
 
-, so , so , so , so , so The values for are
+#### Input Format
 
-.
+The first line contains an integer <img src="https://latex.codecogs.com/svg.latex?\Large&space;n">, the number of elements in the sequence.<br>
+The second line contains <img src="https://latex.codecogs.com/svg.latex?\Large&space;n"> space-separated integers <img src="https://latex.codecogs.com/svg.latex?\Large&space;p[i]"> where <img src="https://latex.codecogs.com/svg.latex?\Large&space;1\le{i}\le{n}">.
 
-Function Description
+#### Constraints
+- <img src="https://latex.codecogs.com/svg.latex?\Large&space;1\le{n}\le{50}">
+- <img src="https://latex.codecogs.com/svg.latex?\Large&space;1\le{p[i]}\le{50}">, where <img src="https://latex.codecogs.com/svg.latex?\Large&space;1\le{i}\le{n}">.
+- Each element in the sequence is distinct.
 
-Complete the permutationEquation function in the editor below. It should return an array of integers that represent the values of
+#### Output Format
 
-.
-
-permutationEquation has the following parameter(s):
-
-    p: an array of integers
-
-Input Format
-
-The first line contains an integer
-, the number of elements in the sequence.
-The second line contains space-separated integers where
-
-.
-
-Constraints
-
-, where
-
-    .
-    Each element in the sequence is distinct.
-
-Output Format
-
-For each
-from to , print an integer denoting any valid satisfying the equation
-
-on a new line.
+For each <img src="https://latex.codecogs.com/svg.latex?\Large&space;x"> from <img src="https://latex.codecogs.com/svg.latex?\Large&space;1"> to <img src="https://latex.codecogs.com/svg.latex?\Large&space;n">, print an integer denoting any valid <img src="https://latex.codecogs.com/svg.latex?\Large&space;y"> satisfying the equation <img src="https://latex.codecogs.com/svg.latex?\Large&space;p(p(y))\equiv{x}"> on a new line.
 
 #### Sample Input 0
 ```
@@ -60,18 +41,11 @@ on a new line.
 ```
 #### Explanation 0
 
-Given the values of
-, , and , we calculate and print the following values for each from to
+Given the values of <img src="https://latex.codecogs.com/svg.latex?\Large&space;p(1)=2,p(2)=3">, and <img src="https://latex.codecogs.com/svg.latex?\Large&space;p(3)=1">, we calculate and print the following values for each <img src="https://latex.codecogs.com/svg.latex?\Large&space;x"> from <img src="https://latex.codecogs.com/svg.latex?\Large&space;1"> to <img src="https://latex.codecogs.com/svg.latex?\Large&space;n">:<br>
 
-:
-
-, so we print the value of
-on a new line.
-, so we print the value of
-on a new line.
-, so we print the value of
-
-    on a new line.
+1. <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=1\equiv{p(3)}=p(p(2))=p(p(y))">, so we print the value of <img src="https://latex.codecogs.com/svg.latex?\Large&space;y=2"> on a new line.<br>
+2. <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=2\equiv{p(1)}=p(p(3))=p(p(y))">, so we print the value of <img src="https://latex.codecogs.com/svg.latex?\Large&space;y=3"> on a new line.<br>
+3. <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=3\equiv{p(2)}=p(p(1))=p(p(y))">, so we print the value of <img src="https://latex.codecogs.com/svg.latex?\Large&space;y=1"> on a new line.<br>
 
 #### Sample Input 1
 ```
