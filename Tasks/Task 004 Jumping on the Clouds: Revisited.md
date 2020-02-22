@@ -4,13 +4,13 @@
 
 Aerith is playing a cloud hopping game. In this game, there are sequentially numbered clouds that can be thunderheads or cumulus clouds. Her character must jump from cloud to cloud until it reaches the start again.
 
-To play, Aerith is given an array of clouds, <img src="https://latex.codecogs.com/svg.latex?\Large&space;c"> and an energy level <img src="https://latex.codecogs.com/svg.latex?\Large&space;se=100">. She starts from <img src="https://latex.codecogs.com/svg.latex?\Large&space;c[0]"> and uses <img src="https://latex.codecogs.com/svg.latex?\Large&space;1"> unit of energy to make a jump of size <img src="https://latex.codecogs.com/svg.latex?\Large&space;k"> to cloud <img src="https://latex.codecogs.com/svg.latex?\Large&space;c[(i+k)%n]">. If Aerith lands on a thundercloud, <img src="https://latex.codecogs.com/svg.latex?\Large&space;c[i]"> , her energy (<img src="https://latex.codecogs.com/svg.latex?\Large&space;e">) decreases by <img src="https://latex.codecogs.com/svg.latex?\Large&space;2"> additional units. The game ends when Aerith lands back on cloud <img src="https://latex.codecogs.com/svg.latex?\Large&space;0">.
+To play, Aerith is given an array of clouds, <img src="https://latex.codecogs.com/svg.latex?\Large&space;c"> and an energy level <img src="https://latex.codecogs.com/svg.latex?\Large&space;se=100">. She starts from <img src="https://latex.codecogs.com/svg.latex?\Large&space;c[0]"> and uses <img src="https://latex.codecogs.com/svg.latex?\Large&space;1"> unit of energy to make a jump of size <img src="https://latex.codecogs.com/svg.latex?\Large&space;k"> to cloud <img src="https://latex.codecogs.com/svg.latex?\Large&space;c[(i+k)char`%n]">. If Aerith lands on a thundercloud, <img src="https://latex.codecogs.com/svg.latex?\Large&space;c[i]"> , her energy (<img src="https://latex.codecogs.com/svg.latex?\Large&space;e">) decreases by <img src="https://latex.codecogs.com/svg.latex?\Large&space;2"> additional units. The game ends when Aerith lands back on cloud <img src="https://latex.codecogs.com/svg.latex?\Large&space;0">.
 
 Given the values of <img src="https://latex.codecogs.com/svg.latex?\Large&space;n,k">, and the configuration of the clouds as an array <img src="https://latex.codecogs.com/svg.latex?\Large&space;c">, can you determine the final value of <img src="https://latex.codecogs.com/svg.latex?\Large&space;e"> after the game ends?
 
 For example, give <img src="https://latex.codecogs.com/svg.latex?\Large&space;c=[0,0,1,0]"> and <img src="https://latex.codecogs.com/svg.latex?\Large&space;k=2">, the indices of her path are <img src="https://latex.codecogs.com/svg.latex?\Large&space;0\rightarrow{2}\rightarrow{0}">. Her energy level reduces by <img src="https://latex.codecogs.com/svg.latex?\Large&space;1"> for each jump to <img src="https://latex.codecogs.com/svg.latex?\Large&space;98">. She landed on one thunderhead at an additional cost of <img src="https://latex.codecogs.com/svg.latex?\Large&space;2"> energy units. Her final energy level is <img src="https://latex.codecogs.com/svg.latex?\Large&space;96">.
 
-**Note:** Recall that <img src="https://latex.codecogs.com/svg.latex?\Large&space;%"> refers to the [modulo operation](https://en.wikipedia.org/wiki/Modulo_operation). In this case, it serves to make the route circular. If Aerith is at <img src="https://latex.codecogs.com/svg.latex?\Large&space;c[n-1]"> and jumps <img src="https://latex.codecogs.com/svg.latex?\Large&space;1">, she will arrive at <img src="https://latex.codecogs.com/svg.latex?\Large&space;c[0]">.
+**Note:** Recall that <img src="https://latex.codecogs.com/svg.latex?\Large&space;char`%"> refers to the [modulo operation](https://en.wikipedia.org/wiki/Modulo_operation). In this case, it serves to make the route circular. If Aerith is at <img src="https://latex.codecogs.com/svg.latex?\Large&space;c[n-1]"> and jumps <img src="https://latex.codecogs.com/svg.latex?\Large&space;1">, she will arrive at <img src="https://latex.codecogs.com/svg.latex?\Large&space;c[0]">.
 
 #### Input Format
 
@@ -22,7 +22,7 @@ The second line contains <img src="https://latex.codecogs.com/svg.latex?\Large&s
 #### Constraints
 - <img src="https://latex.codecogs.com/svg.latex?\Large&space;2\le{n}\le{25}">
 - <img src="https://latex.codecogs.com/svg.latex?\Large&space;1\le{k}<n">
-- <img src="https://latex.codecogs.com/svg.latex?\Large&space;n%k=0">
+- <img src="https://latex.codecogs.com/svg.latex?\Large&space;n{char`%}k=0">
 - <img src="https://latex.codecogs.com/svg.latex?\Large&space;c[i]\in{\{0,1\}}">
 
 #### Output Format
