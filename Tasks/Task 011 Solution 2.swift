@@ -16,6 +16,6 @@ for (i,c) in word.enumerated() {
     }
 }
 
-let res = div_cnt * n/word.count + rem_cnt
+let res = div_cnt * (n/word.count) + rem_cnt
 
 print(res)
