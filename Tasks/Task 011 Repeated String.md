@@ -1,6 +1,6 @@
 ## Repeated String
 
-[Judge System]()
+[Judge System](https://www.hackerrank.com/challenges/repeated-string/problem)
 
 Lilah has a string, <img src="https://latex.codecogs.com/svg.latex?\Large&space;s"> , of lowercase English letters that she repeated infinitely many times.
 
