@@ -19,7 +19,7 @@ The first line contains an integer
 
 #### Constraints
 - <img src="https://latex.codecogs.com/svg.latex?\Large&space;2\le{n}\le{100}">
-- <img src="https://latex.codecogs.com/svg.latex?\Large&space;c[i]\in\{\0,1}">
+- <img src="https://latex.codecogs.com/svg.latex?\Large&space;c[i]\in\{\0,1\}">
 - <img src="https://latex.codecogs.com/svg.latex?\Large&space;c[0]=c[n-1]=0">
 #### Output Format
 
