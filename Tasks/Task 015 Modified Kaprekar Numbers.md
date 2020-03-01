@@ -11,9 +11,11 @@ For example, if <img src="https://latex.codecogs.com/svg.latex?\Large&space;n=5,
 **Note:** r may have leading zeros.
 
 Here's an explanation from Wikipedia about the **ORIGINAL** [Kaprekar Number](https://en.wikipedia.org/wiki/Kaprekar_number) (spot the difference!):
-
-    In mathematics, a Kaprekar number for a given base is a non-negative integer, the representation of whose square in that base can be split into two parts that add up to the original number again. For instance, 45 is a Kaprekar number, because 45² = 2025 and 20+25 = 45.
-
+````
+In mathematics, a Kaprekar number for a given base is a non-negative integer, the representation 
+of whose square in that base can be split into two parts that add up to the original number again. 
+For instance, 45 is a Kaprekar number, because 45² = 2025 and 20+25 = 45.
+````
 Given two positive integers <img src="https://latex.codecogs.com/svg.latex?\Large&space;p"> and <img src="https://latex.codecogs.com/svg.latex?\Large&space;q"> where <img src="https://latex.codecogs.com/svg.latex?\Large&space;p"> is lower than <img src="https://latex.codecogs.com/svg.latex?\Large&space;q">, write a program to print the modified Kaprekar numbers in the range between <img src="https://latex.codecogs.com/svg.latex?\Large&space;p"> and <img src="https://latex.codecogs.com/svg.latex?\Large&space;q">, inclusive.
 
 #### Input Format
