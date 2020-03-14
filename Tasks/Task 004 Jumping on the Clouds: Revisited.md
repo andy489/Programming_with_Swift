@@ -44,9 +44,9 @@ In the diagram below, red clouds are thunderheads and purple clouds are cumulus 
 
 ![](https://github.com/andy489/Data_Structures_and_Algorithms_CPP/blob/master/assets/Jumping%20on%20the%20Clouds%20-%20Revisited.png)
 
-Observe that our thunderheads are the clouds numbered <img src="https://latex.codecogs.com/svg.latex?\Large&space;2,5">, and <img src="https://latex.codecogs.com/svg.latex?\Large&space;6">. Aerith makes the following sequence of moves:
+Observe that our thunderheads are the clouds numbered <img src="https://latex.codecogs.com/svg.latex?2,5">, and <img src="https://latex.codecogs.com/svg.latex?6">. Aerith makes the following sequence of moves:
 
-1. Move: <img src="https://latex.codecogs.com/svg.latex?\Large&space;0\rightarrow{2}">, Energy: <img src="https://latex.codecogs.com/svg.latex?\Large&space;e=100-1-1=97">.<br>
-2. Move: <img src="https://latex.codecogs.com/svg.latex?\Large&space;2\rightarrow{4}">, Energy: <img src="https://latex.codecogs.com/svg.latex?\Large&space;e=97-1=96">.<br>
-3. Move: <img src="https://latex.codecogs.com/svg.latex?\Large&space;4\rightarrow{6}">, Energy: <img src="https://latex.codecogs.com/svg.latex?\Large&space;e=96-1-2=93">.<br>
-4. Move: <img src="https://latex.codecogs.com/svg.latex?\Large&space;6\rightarrow{0}">, Energy: <img src="https://latex.codecogs.com/svg.latex?\Large&space;e=93-1=92">.
+1. Move: <img src="https://latex.codecogs.com/svg.latex?0\rightarrow{2}">, Energy: <img src="https://latex.codecogs.com/svg.latex?e=100-1-1=97">.<br>
+2. Move: <img src="https://latex.codecogs.com/svg.latex?2\rightarrow{4}">, Energy: <img src="https://latex.codecogs.com/svg.latex?e=97-1=96">.<br>
+3. Move: <img src="https://latex.codecogs.com/svg.latex?4\rightarrow{6}">, Energy: <img src="https://latex.codecogs.com/svg.latex?e=96-1-2=93">.<br>
+4. Move: <img src="https://latex.codecogs.com/svg.latex?6\rightarrow{0}">, Energy: <img src="https://latex.codecogs.com/svg.latex?e=93-1=92">.
