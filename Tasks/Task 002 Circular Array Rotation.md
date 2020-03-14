@@ -8,27 +8,27 @@ For each array, perform a number of right circular rotations and return the valu
 
 For example, array <img src="https://latex.codecogs.com/svg.latex?=[3,4,5]">, number of rotations, <img src="https://latex.codecogs.com/svg.latex?k=2"> and indices to check, <img src="https://latex.codecogs.com/svg.latex?m=[1,2]">.<br>
 First we perform the two rotations:<br>
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;[3,4,5]\rightarrow{[5,3,4]}\rightarrow{[4,5,3]}"><br>
-Now return the values from the zero-based indices <img src="https://latex.codecogs.com/svg.latex?\Large&space;1"> and <img src="https://latex.codecogs.com/svg.latex?\Large&space;2"> as indicated in the <img src="https://latex.codecogs.com/svg.latex?\Large&space;m"> array.
+<img src="https://latex.codecogs.com/svg.latex?[3,4,5]\rightarrow{[5,3,4]}\rightarrow{[4,5,3]}"><br>
+Now return the values from the zero-based indices <img src="https://latex.codecogs.com/svg.latex?1"> and <img src="https://latex.codecogs.com/svg.latex?\Large&space;2"> as indicated in the <img src="https://latex.codecogs.com/svg.latex?m"> array.
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;a[1]=5"><br>
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;a[2]=3">
+<img src="https://latex.codecogs.com/svg.latex?a[1]=5"><br>
+<img src="https://latex.codecogs.com/svg.latex?a[2]=3">
 
 #### Input Format
 
-The first line contains <img src="https://latex.codecogs.com/svg.latex?\Large&space;3"> space-separated integers, <img src="https://latex.codecogs.com/svg.latex?\Large&space;n">, <img src="https://latex.codecogs.com/svg.latex?\Large&space;k">, and <img src="https://latex.codecogs.com/svg.latex?\Large&space;q">, the number of elements in the integer array, the rotation count and the number of queries.<br>
-The second line contains <img src="https://latex.codecogs.com/svg.latex?\Large&space;n"> space-separated integers, where each integer <img src="https://latex.codecogs.com/svg.latex?\Large&space;i"> describes array element (where <img src="https://latex.codecogs.com/svg.latex?\Large&space;0\le{i}<n">).<br>
-Each of the <img src="https://latex.codecogs.com/svg.latex?\Large&space;q"> subsequent lines contains a single integer denoting , the index of the element to return from <img src="https://latex.codecogs.com/svg.latex?\Large&space;a">.
+The first line contains <img src="https://latex.codecogs.com/svg.latex?3"> space-separated integers, <img src="https://latex.codecogs.com/svg.latex?n">, <img src="https://latex.codecogs.com/svg.latex?k">, and <img src="https://latex.codecogs.com/svg.latex?q">, the number of elements in the integer array, the rotation count and the number of queries.<br>
+The second line contains <img src="https://latex.codecogs.com/svg.latex?n"> space-separated integers, where each integer <img src="https://latex.codecogs.com/svg.latex?i"> describes array element (where <img src="https://latex.codecogs.com/svg.latex?0\le{i}<n">).<br>
+Each of the <img src="https://latex.codecogs.com/svg.latex?q"> subsequent lines contains a single integer denoting , the index of the element to return from <img src="https://latex.codecogs.com/svg.latex?a">.
 
 #### Constraints
-- <img src="https://latex.codecogs.com/svg.latex?\Large&space;1\le{n}\le{10^5}">
-- <img src="https://latex.codecogs.com/svg.latex?\Large&space;1\le{a[i]\le{10^5}}">
-- <img src="https://latex.codecogs.com/svg.latex?\Large&space;1\le{k}\le{10^5}">
-- <img src="https://latex.codecogs.com/svg.latex?\Large&space;1\le{q}\le{500}">
-- <img src="https://latex.codecogs.com/svg.latex?\Large&space;0\le{m}<n">
+- <img src="https://latex.codecogs.com/svg.latex?1\le{n}\le{10^5}">
+- <img src="https://latex.codecogs.com/svg.latex?1\le{a[i]\le{10^5}}">
+- <img src="https://latex.codecogs.com/svg.latex?1\le{k}\le{10^5}">
+- <img src="https://latex.codecogs.com/svg.latex?1\le{q}\le{500}">
+- <img src="https://latex.codecogs.com/svg.latex?0\le{m}<n">
 #### Output Format
 
-For each query, print the value of the element at index <img src="https://latex.codecogs.com/svg.latex?\Large&space;m"> of the rotated array on a new line.
+For each query, print the value of the element at index <img src="https://latex.codecogs.com/svg.latex?m"> of the rotated array on a new line.
 
 #### Sample Input 0
 ```
@@ -46,10 +46,10 @@ For each query, print the value of the element at index <img src="https://latex.
 ```
 #### Explanation 0
 
-After the first rotation, the array becomes <img src="https://latex.codecogs.com/svg.latex?\Large&space;[3,1,2]">.<br>
-After the second (and final) rotation, the array becomes <img src="https://latex.codecogs.com/svg.latex?\Large&space;[2,3,1]">.
+After the first rotation, the array becomes <img src="https://latex.codecogs.com/svg.latex?[3,1,2]">.<br>
+After the second (and final) rotation, the array becomes <img src="https://latex.codecogs.com/svg.latex?[2,3,1]">.
 
-Let's refer to the array's final state as array <img src="https://latex.codecogs.com/svg.latex?\Large&space;b=[2,3,1]">. For each query, we just have to print the value of <img src="https://latex.codecogs.com/svg.latex?\Large&space;b_m"> on a new line:
+Let's refer to the array's final state as array <img src="https://latex.codecogs.com/svg.latex?b=[2,3,1]">. For each query, we just have to print the value of <img src="https://latex.codecogs.com/svg.latex?b_m"> on a new line:
 
 1. <img src="https://latex.codecogs.com/svg.latex?m=0">, <img src="https://latex.codecogs.com/svg.latex?b_0=2">
 
