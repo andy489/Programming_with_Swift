@@ -29,9 +29,9 @@ acmTeam has the following parameter(s):
 
 #### Input Format
 
-The first line contains two space-separated integers <img src="https://latex.codecogs.com/svg.latex?\Large&space;n"> and <img src="https://latex.codecogs.com/svg.latex?\Large&space;m">, where <img src="https://latex.codecogs.com/svg.latex?\Large&space;n"> represents the number of attendees and <img src="https://latex.codecogs.com/svg.latex?\Large&space;m"> represents the number of topics.
+The first line contains two space-separated integers <img src="https://latex.codecogs.com/svg.latex?n"> and <img src="https://latex.codecogs.com/svg.latex?\Large&space;m">, where <img src="https://latex.codecogs.com/svg.latex?n"> represents the number of attendees and <img src="https://latex.codecogs.com/svg.latex?m"> represents the number of topics.
 
-Each of the next <img src="https://latex.codecogs.com/svg.latex?\Large&space;n"> lines contains a binary string of length <img src="https://latex.codecogs.com/svg.latex?\Large&space;m">. If the <img src="https://latex.codecogs.com/svg.latex?\Large&space;i^{th}"> line's <img src="https://latex.codecogs.com/svg.latex?\Large&space;j^{th}"> character is <img src="https://latex.codecogs.com/svg.latex?\Large&space;1">, then the <img src="https://latex.codecogs.com/svg.latex?\Large&space;i^{th}"> person knows the <img src="https://latex.codecogs.com/svg.latex?\Large&space;j^{th}"> topic.
+Each of the next <img src="https://latex.codecogs.com/svg.latex?n"> lines contains a binary string of length <img src="https://latex.codecogs.com/svg.latex?m">. If the <img src="https://latex.codecogs.com/svg.latex?\Large&space;i^{th}"> line's <img src="https://latex.codecogs.com/svg.latex?j^{th}"> character is <img src="https://latex.codecogs.com/svg.latex?1">, then the <img src="https://latex.codecogs.com/svg.latex?i^{th}"> person knows the <img src="https://latex.codecogs.com/svg.latex?j^{th}"> topic.
 
 #### Constraints
 - <img src="https://latex.codecogs.com/svg.latex?\Large&space;2\le{n}\le{500}">
