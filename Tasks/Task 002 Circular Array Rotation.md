@@ -6,7 +6,7 @@ John Watson knows of an operation called a right circular rotation on an array o
 
 For each array, perform a number of right circular rotations and return the value of the element at a given index.
 
-For example, array <img src="https://latex.codecogs.com/svg.latex?\Large&space;a=[3,4,5]">, number of rotations, <img src="https://latex.codecogs.com/svg.latex?\Large&space;k=2"> and indices to check, <img src="https://latex.codecogs.com/svg.latex?\Large&space;m=[1,2]">.<br>
+For example, array <img src="https://latex.codecogs.com/svg.latex?=[3,4,5]">, number of rotations, <img src="https://latex.codecogs.com/svg.latex?k=2"> and indices to check, <img src="https://latex.codecogs.com/svg.latex?m=[1,2]">.<br>
 First we perform the two rotations:<br>
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;[3,4,5]\rightarrow{[5,3,4]}\rightarrow{[4,5,3]}"><br>
 Now return the values from the zero-based indices <img src="https://latex.codecogs.com/svg.latex?\Large&space;1"> and <img src="https://latex.codecogs.com/svg.latex?\Large&space;2"> as indicated in the <img src="https://latex.codecogs.com/svg.latex?\Large&space;m"> array.
@@ -51,8 +51,8 @@ After the second (and final) rotation, the array becomes <img src="https://latex
 
 Let's refer to the array's final state as array <img src="https://latex.codecogs.com/svg.latex?\Large&space;b=[2,3,1]">. For each query, we just have to print the value of <img src="https://latex.codecogs.com/svg.latex?\Large&space;b_m"> on a new line:
 
-1. <img src="https://latex.codecogs.com/svg.latex?\Large&space;m=0">, <img src="https://latex.codecogs.com/svg.latex?\Large&space;b_0=2">
+1. <img src="https://latex.codecogs.com/svg.latex?m=0">, <img src="https://latex.codecogs.com/svg.latex?b_0=2">
 
-2. <img src="https://latex.codecogs.com/svg.latex?\Large&space;m=1">, <img src="https://latex.codecogs.com/svg.latex?\Large&space;b_1=3">
+2. <img src="https://latex.codecogs.com/svg.latex?m=1">, <img src="https://latex.codecogs.com/svg.latex?b_1=3">
 
-3. <img src="https://latex.codecogs.com/svg.latex?\Large&space;m=2">, <img src="https://latex.codecogs.com/svg.latex?\Large&space;b_2=1">. 
+3. <img src="https://latex.codecogs.com/svg.latex?m=2">, <img src="https://latex.codecogs.com/svg.latex?b_2=1">. 
