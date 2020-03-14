@@ -6,15 +6,15 @@ A jail has a number of prisoners and a number of treats to pass out to them. The
 
 The jailer is playing a little joke, though. The last piece of candy looks like all the others, but it tastes awful. Determine the chair number occupied by the prisoner who will receive that candy.
 
-For example, there are <img src="https://latex.codecogs.com/svg.latex?\Large&space;4"> prisoners and  <img src="https://latex.codecogs.com/svg.latex?\Large&space;6"> pieces of candy. The prisoners arrange themselves in seats numbered <img src="https://latex.codecogs.com/svg.latex?\Large&space;1"> to <img src="https://latex.codecogs.com/svg.latex?\Large&space;4">. Let's suppose two is drawn from the hat. Prisoners receive candy at positions <img src="https://latex.codecogs.com/svg.latex?\Large&space;2,3,4,1,2,3">. The prisoner to be warned sits in chair number <img src="https://latex.codecogs.com/svg.latex?\Large&space;3">.
+For example, there are <img src="https://latex.codecogs.com/svg.latex?4"> prisoners and  <img src="https://latex.codecogs.com/svg.latex?6"> pieces of candy. The prisoners arrange themselves in seats numbered <img src="https://latex.codecogs.com/svg.latex?1"> to <img src="https://latex.codecogs.com/svg.latex?4">. Let's suppose two is drawn from the hat. Prisoners receive candy at positions <img src="https://latex.codecogs.com/svg.latex?2,3,4,1,2,3">. The prisoner to be warned sits in chair number <img src="https://latex.codecogs.com/svg.latex?3">.
 
 #### Input Format
 
 The first line contains an integer, <img src="https://latex.codecogs.com/svg.latex?\Large&space;t">, denoting the number of test cases.<br>
-The next <img src="https://latex.codecogs.com/svg.latex?\Large&space;t"> lines each contain <img src="https://latex.codecogs.com/svg.latex?\Large&space;3"> space-separated integers:
-- <img src="https://latex.codecogs.com/svg.latex?\Large&space;n"> : the number of prisoners
-- <img src="https://latex.codecogs.com/svg.latex?\Large&space;m"> : the number of sweets
-- <img src="https://latex.codecogs.com/svg.latex?\Large&space;s"> : the chair number to start passing out treats at
+The next <img src="https://latex.codecogs.com/svg.latex?t"> lines each contain <img src="https://latex.codecogs.com/svg.latex?\Large&space;3"> space-separated integers:
+- <img src="https://latex.codecogs.com/svg.latex?n"> : the number of prisoners
+- <img src="https://latex.codecogs.com/svg.latex?m"> : the number of sweets
+- <img src="https://latex.codecogs.com/svg.latex?s"> : the chair number to start passing out treats at
 
 #### Constraints
 - <img src="https://latex.codecogs.com/svg.latex?\Large&space;1\le{t}\le{100}">
@@ -39,7 +39,7 @@ For each test case, print the chair number of the prisoner who receives the awfu
 ```
 #### Explanation 0
 
-In first query, there are <img src="https://latex.codecogs.com/svg.latex?\Large&space;n=5"> prisoners and <img src="https://latex.codecogs.com/svg.latex?\Large&space;m=2"> sweets. Distribution starts at seat number <img src="https://latex.codecogs.com/svg.latex?\Large&space;s=1">. Prisoners in seats numbered <img src="https://latex.codecogs.com/svg.latex?\Large&space;1"> and <img src="https://latex.codecogs.com/svg.latex?\Large&space;2"> get sweets. Warn prisoner .
+In first query, there are <img src="https://latex.codecogs.com/svg.latex?n=5"> prisoners and <img src="https://latex.codecogs.com/svg.latex?m=2"> sweets. Distribution starts at seat number <img src="https://latex.codecogs.com/svg.latex?s=1">. Prisoners in seats numbered <img src="https://latex.codecogs.com/svg.latex?\Large&space;1"> and <img src="https://latex.codecogs.com/svg.latex?\Large&space;2"> get sweets. Warn prisoner .
 In the second query, distribution starts at seat so prisoners in seats and get sweets. Warn prisoner <img src="https://latex.codecogs.com/svg.latex?\Large&space;2">.
 
 #### Sample Input 1
