@@ -1,7 +1,8 @@
 # Swift
 
 Subdomain | Challenge | Points | Solution 
--:|:-:|:-:|:-:
+:-:|:-:|:-:|:-:
+FMI>Tasks|[Keratsuba (Fast) Multiplication](https://github.com/andy489/Programming_with_Swift/blob/master/FMI%20Tasks/Fast%20Multiplication.swift)|-|[Solution.swift](https://github.com/andy489/Programming_with_Swift/blob/master/FMI%20Tasks/Fast%20Multiplication.swift)
 Algorithms > Implementation| [Save the Prisoner!](https://www.hackerrank.com/challenges/save-the-prisoner/problem)|15| [Solution.swift](https://github.com/andy489/Programming_with_Swift/blob/master/Algorithms/Implementation/Save%20the%20Prisoner!.swift)|
 Algorithms > Implementation | [Circular Array Rotation](https://www.hackerrank.com/challenges/circular-array-rotation/problem) | 20 |[Solution.swift](https://github.com/andy489/Programming_with_Swift/blob/master/Algorithms/Implementation/Circular%20Array%20Rotation.swift)
 Algorithms > Implementation | [Sequence Equation](https://www.hackerrank.com/challenges/permutation-equation/problem) | 20 | [Solution.swift](https://github.com/andy489/Programming_with_Swift/blob/master/Algorithms/Implementation/Sequence%20Equation.swift)
