@@ -25,7 +25,7 @@
  # е непроходимо поле
 ```
 Примeрна функция:
-```
+```swift
      protocol Maze {
          init(raw: [[String]])
          ...
