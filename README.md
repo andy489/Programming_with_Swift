@@ -2,6 +2,9 @@
 
 Subdomain | Challenge | Points | Solution 
 :-:|:-:|:-:|:-:
+FMI>Tasks|[Horse traverse](https://github.com/andy489/Programming_with_Swift/blob/master/FMI%20Tasks/Horse%20traverse.md)|-|[Solution.swift]()
+FMI>Tasks|[Evaluate expression](https://github.com/andy489/Programming_with_Swift/blob/master/FMI%20Tasks/Evaluate%20expression.md)|-|[Solution.swift]()
+FMI>Tasks|[Labyrinth](https://github.com/andy489/Programming_with_Swift/blob/master/FMI%20Tasks/Labyrinth.md)|-|[Solution.swift]()
 FMI>Tasks|[Keratsuba (Fast) Multiplication](https://github.com/andy489/Programming_with_Swift/blob/master/FMI%20Tasks/Fast%20Multiplication.swift)|-|[Solution.swift](https://github.com/andy489/Programming_with_Swift/blob/master/FMI%20Tasks/Fast%20Multiplication.swift)
 FMI>Tasks|[Color Contents](https://github.com/andy489/Programming_with_Swift/blob/master/FMI%20Tasks/Color%20Contents.swift)|-|[Solution.swift](https://github.com/andy489/Programming_with_Swift/blob/master/FMI%20Tasks/Color%20Contents.swift)
 Algorithms > Implementation| [Save the Prisoner!](https://www.hackerrank.com/challenges/save-the-prisoner/problem)|15| [Solution.swift](https://github.com/andy489/Programming_with_Swift/blob/master/Algorithms/Implementation/Save%20the%20Prisoner!.swift)|
