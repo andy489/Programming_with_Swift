@@ -4,6 +4,10 @@ class Animal{
     var _name: String
     var _age: UInt8
     
+    class func classification() -> String {
+        "Animal"
+    }
+    
     // the initializer must be added to the heirs
     required init(name: String, age: UInt8){
         _name = name
@@ -15,10 +19,13 @@ class Animal{
     }
 }
 
-// the last class in the inheritance tree
 final class Meerkat: Animal{
     var _type: String = ""
     var _habitat: String = ""
+    
+    override class func classification() -> String {
+        "Meerkat"
+    }
     
     init(name: String, age: UInt8, type: String, habitat: String){
         super.init(name: name, age: age)
@@ -37,3 +44,5 @@ final class Meerkat: Animal{
 
 var edje = Meerkat(name: "Meerkat", age: 2, type: "Mamal", habitat: "dry open areas, scrublands and savannas")
 edje.display()
+
+print(Meerkat.classification())
