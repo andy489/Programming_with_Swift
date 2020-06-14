@@ -1,8 +1,8 @@
 // github.com/andy489
 
 class Human{
-    var name: String = ""
-    var age: UInt8 = 0
+    var name: String
+    var age: UInt8
     
     init(){
         self.name = ""
