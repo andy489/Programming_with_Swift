@@ -141,5 +141,6 @@ c2[5] = "SUV"
 print("\(c2[0]) \(c2[1]) - \(c2[5]). European emission standard: \(c1.europeanEmissionStandard)")
 
 c2[2]=88_990
-c2.printMe(currency: "BGN")
 
+var c2_copy = c2
+c2_copy.printMe(currency: "BGN")
