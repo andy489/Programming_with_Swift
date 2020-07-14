@@ -1,3 +1,5 @@
+// github.com/andy489
+
 public class StackNode {
     var value = String()
     var next: StackNode?
