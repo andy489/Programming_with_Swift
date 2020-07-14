@@ -1,3 +1,5 @@
+// github.com/andy489
+
 public func arePair (left: Character, right: Character) -> Bool{
     return left == "(" && right == ")" || 
     left == "[" && right == "]" || 
