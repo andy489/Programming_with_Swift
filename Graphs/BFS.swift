@@ -1,5 +1,5 @@
 import Foundation
-
+// Directed
 class Node : Equatable {
     var value: Int?
     var neighbours: Array<Int>
